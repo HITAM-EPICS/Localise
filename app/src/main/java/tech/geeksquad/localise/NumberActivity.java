@@ -32,7 +32,7 @@ public class NumberActivity extends AppCompatActivity {
         list.add("Nine");
         list.add("Ten");
 
-        adapter = new ArrayAdapter<>(this, R.layout.list_item, list);
+        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
 
         listView.setAdapter(adapter);
     }
